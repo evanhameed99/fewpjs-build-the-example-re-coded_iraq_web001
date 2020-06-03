@@ -5,10 +5,15 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 let likes = document.getElementsByClassName('like-glyph');
 for (const like of likes ){
-  like.addEventListener('click',()=>{
+  like.addEventListener('click',(event)=>{
     mimicServerCall()
     .then(resp => {
-      console.log(resp);
+      if(event.target==='♡'){
+        like();
+        console.log('empty');
+      }else if (event.targer==='♥'){
+        dislike();
+      }
     })
 
   })
