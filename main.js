@@ -10,7 +10,7 @@ for (const like of likes ){
     .then(resp => {
       console.log(resp);
     })
-    
+
   })
 }
 
