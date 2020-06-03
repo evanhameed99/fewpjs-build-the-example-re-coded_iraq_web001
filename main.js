@@ -9,7 +9,7 @@ for (const like of likes ){
     mimicServerCall()
     .then(resp => {
       console.log(resp);
-      console.log(event.target.value);
+      console.log(event.target.innerText);
       // if(event.target==='♡'){
       //   like();
       //   console.log('empty');
