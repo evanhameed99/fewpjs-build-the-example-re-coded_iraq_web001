@@ -8,12 +8,13 @@ for (const like of likes ){
   like.addEventListener('click',(event)=>{
     mimicServerCall()
     .then(resp => {
-      if(event.target==='♡'){
-        like();
-        console.log('empty');
-      }else if (event.targer==='♥'){
-        dislike();
-      }
+      console.log(resp);
+      // if(event.target==='♡'){
+      //   like();
+      //   console.log('empty');
+      // }else if (event.targer==='♥'){
+      //   dislike();
+      // }
     })
 
   })
