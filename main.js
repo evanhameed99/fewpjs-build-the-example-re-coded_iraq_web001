@@ -4,6 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 let likes = document.getElementsByClassName('like-glyph');
+let modal = document.getElementById('modal');
 for (const like of likes ){
   like.addEventListener('click',(event)=>{
     mimicServerCall()
@@ -19,9 +20,14 @@ for (const like of likes ){
       }
     }).catch(err=>{
       console.log('this is the error:' +err);
+      //error();
     })
 
   })
+}
+
+function error(){
+
 }
 
 
