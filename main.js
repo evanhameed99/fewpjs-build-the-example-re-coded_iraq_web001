@@ -3,9 +3,10 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-let like = document.getElementsByClassName('like-glyph');
-console.log(like);
-
+let likes = document.getElementsByClassName('like-glyph');
+for (const like of likes ){
+  console.log(like);
+}
 
 
 //------------------------------------------------------------------------------
