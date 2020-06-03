@@ -11,10 +11,11 @@ for (const like of likes ){
 
       console.log(event.target.innerText);
       if(event.target.innerText==='♡'){
-        like();
+      //  like();
         console.log('empty');
       }else if (event.target.innerText==='♥'){
-        dislike();
+        //dislike();
+        console.log('full');
       }
     })
 
