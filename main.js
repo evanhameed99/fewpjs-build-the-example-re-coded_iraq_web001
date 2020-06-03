@@ -17,6 +17,8 @@ for (const like of likes ){
         //dislike();
         console.log('full');
       }
+    }).catch(err=>{
+      console.log('this is the error':err)
     })
 
   })
