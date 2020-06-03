@@ -32,7 +32,7 @@ modal.classList.add('hidden');
 
 function error(){
 modal.classList.remove('hidden');
-
+setTimeout(hideError,2000);
 }
 
 
