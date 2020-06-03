@@ -18,7 +18,8 @@ for (const like of likes ){
         console.log('empty');
       }else if (event.target.innerText==='♥'){
         //dislike();
-        console.log('full');
+        like.innerText = '♡';
+        like.classList.remove('activated-heart')
       }
     }).catch(err=>{
       console.log('this is the error:' +err);
