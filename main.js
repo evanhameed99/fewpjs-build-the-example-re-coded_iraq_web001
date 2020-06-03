@@ -20,7 +20,7 @@ for (const like of likes ){
       }
     }).catch(err=>{
       console.log('this is the error:' +err);
-      //error();
+      error();
     })
 
   })
