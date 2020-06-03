@@ -37,8 +37,8 @@ modal.classList.remove('hidden');
 setTimeout(hideError,5000);
 }
 // function like(){
-// 
-//   
+//
+//
 // }
 
 
