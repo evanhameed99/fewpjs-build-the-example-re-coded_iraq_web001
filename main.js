@@ -27,7 +27,7 @@ for (const like of likes ){
 }
 
 function error(){
-
+modal.classList.remove('hidden');
 }
 
 
