@@ -27,7 +27,7 @@ for (const like of likes ){
 }
 function hideError(){
 modal.classList.add('hidden');
-  
+
 }
 
 function error(){
