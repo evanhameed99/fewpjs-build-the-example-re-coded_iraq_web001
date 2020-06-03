@@ -8,14 +8,14 @@ for (const like of likes ){
   like.addEventListener('click',(event)=>{
     mimicServerCall()
     .then(resp => {
-      
+
       console.log(event.target.innerText);
-      // if(event.target==='♡'){
-      //   like();
-      //   console.log('empty');
-      // }else if (event.targer==='♥'){
-      //   dislike();
-      // }
+      if(event.target.innerText==='♡'){
+        like();
+        console.log('empty');
+      }else if (event.target.innerText==='♥'){
+        dislike();
+      }
     })
 
   })
