@@ -13,6 +13,8 @@ for (const like of likes ){
       console.log(event.target.innerText);
       if(event.target.innerText==='♡'){
       //  like();
+        like.innerText = '♥';
+        like.classList.add('activated-heart');
         console.log('empty');
       }else if (event.target.innerText==='♥'){
         //dislike();
@@ -34,6 +36,10 @@ function error(){
 modal.classList.remove('hidden');
 setTimeout(hideError,5000);
 }
+// function like(){
+// 
+//   
+// }
 
 
 //------------------------------------------------------------------------------
